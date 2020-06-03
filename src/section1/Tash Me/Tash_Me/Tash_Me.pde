@@ -11,7 +11,9 @@ void setup() {
   
   // load hat like you did with mustache and obama
  hat=loadImage("hat.png"); 
+ hat.resize(800,250);
 }
+
 
 void draw() {
   background(oboma);
@@ -24,6 +26,6 @@ void draw() {
   
   
   if(mouseButton==LEFT){
-    image(hat,50
+    image(hat,6,6);
 }
 }
